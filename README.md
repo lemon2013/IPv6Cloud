@@ -41,43 +41,29 @@ Pool: Ceph存储数据时的逻辑分区。
 1）点开菜单栏集群监控->控制面板，可查看各状态信息
 ![首页](http://oqo3t056d.bkt.clouddn.com/cephindex.png)
 2）移动鼠标至MONMAP可查看监控节点的IP地址。
-![首页](http://oqo3t056d.bkt.clouddn.com/mon.png)
 
 3）移动鼠标至OSDMAP可查看OSD的IP地址。
-![首页](http://oqo3t056d.bkt.clouddn.com/mon.png)
 
 4）移动鼠标至容量分布图显示实时的存储容量分布状态。
-![首页](http://oqo3t056d.bkt.clouddn.com/df.png)
 
 5）移动鼠标至节点查看当前具体时间和读写速度。
-![首页](http://oqo3t056d.bkt.clouddn.com/wr.png)
 
 6）移动鼠标至节点查看当前具体时间及对象数。
-![首页](http://oqo3t056d.bkt.clouddn.com/obj.png)
 
 7）移动鼠标至不同节点查看各Pool的数量分布状态。
-![首页](http://oqo3t056d.bkt.clouddn.com/pginfo.png)
 
 8）移动鼠标至节点查看具体的时间和已经使用的容量。
-![首页](http://oqo3t056d.bkt.clouddn.com/dftime.png)
 
 #### OSD面板
 ![首页](http://oqo3t056d.bkt.clouddn.com/osdindex.png)
 （1）功能描述：对所有OSD的详情监控，选择特定OSD可监控特定OSD使用量状态、主机地址、主机名，并能监控各OSD上的PG数量、Variance、Storage、Latency的状态信息.
 操作说明及示例：
 1）下拉OSD列表，点击选择OSD。
-![首页](http://oqo3t056d.bkt.clouddn.com/osdlst.png)
 2）查看使用量。
-![首页](http://oqo3t056d.bkt.clouddn.com/osddf.png)
 3）移动鼠标至节点查看具体时间及PG数目。
-![首页](http://oqo3t056d.bkt.clouddn.com/pgstime.png)
 4）移动鼠标至节点查看OSD上的Variance信息。
-![首页](http://oqo3t056d.bkt.clouddn.com/vartime.png)
 5）移动鼠标至黑色菱形节点查看具体时间及可用存储大小，移动鼠标至蓝色圆形节点查看具体时间及已用存储信息。
-![首页](http://oqo3t056d.bkt.clouddn.com/avaltime.png)
-![首页](http://oqo3t056d.bkt.clouddn.com/usetime.png)
 6）移动鼠标至节点查看具体时间及延时信息。
-![首页](http://oqo3t056d.bkt.clouddn.com/lattime.png)
 （2）信息搜索
 功能描述：搜索OSD的ID，查看OSD的信息。
 操作说明：在搜索框输入OSD的ID可查看对应OSD的WEIGHT、REWEIGHT、SIZE、USE、AVAIL、VAR等信息。
