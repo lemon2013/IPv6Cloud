@@ -1,0 +1,4 @@
+function javaPublicKey(){
+	var publicKey = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCS4vizFKvKp3slp2NIJ5c9u1gTAadETTJ0FNRqZQclzz96ntMfy8oSJgbf/faeeIzspF0gp2nRvCfwTGj/0/ifb0ienWATThVI753PXOUuKam4LnWRX2JhT+CrMo4p0s8vvJ8xehDCGjGbH7V7phXifcxWooO84tDoBhz5OK2YPQIDAQAB";
+	return publicKey;
+}

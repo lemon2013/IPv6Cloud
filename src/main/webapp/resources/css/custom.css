@@ -1,0 +1,37 @@
+#progress_bar{
+	margin: 5px 0; 
+	padding: 2px; 
+	border:1px solid #000; 
+	border-radius: 5px;
+	font-size: 14px; 
+	clear: both;
+	opacity: 0; 
+	transition: opacity 1s linear";
+	-webkit-transition: opacity 1s linear";
+	-moz-transition: opacity 1s linear";
+}
+#progress_bar.loading{
+    opacity: 1.0;
+}
+#progress_bar .percent{
+    background-color: #428bca;
+    height: auto;
+    width: 0;
+}
+.show {
+  display: block !important;
+}
+.hidden {
+  display: none !important;
+}
+.loginPanel{
+	width: 400px;
+	height: 320px;
+}
+.radius{
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+.gap_between{
+	margin-top: 25px;
+}
